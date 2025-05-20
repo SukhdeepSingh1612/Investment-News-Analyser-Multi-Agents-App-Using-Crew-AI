@@ -32,11 +32,14 @@ The Investment News Analyzer is a Streamlit-based web application that fetches t
    pip install -r requirements.txt
    ```
 
-3. **Set up environment variables:**
-   Create a `.env` file in the root directory and add your NewsAPI key:
+3. **Create a `.env` file in the root directory and add your NewsAPI key and OpenAI API key:**
    ```
    NEWS_API_KEY=your_news_api_key_here
+   OPENAI_API_KEY=your_openai_api_key_here
    ```
+
+   **Note:** The application requires an OpenAI API key to function, as CrewAI relies on it for the agents to work.
+
 
 4. **Run the application:**
    ```bash
