@@ -9,6 +9,17 @@ The Investment News Analyzer is a Streamlit-based web application that fetches t
 - **Portfolio Impact Mapping:** Maps each news article to the affected stocks in the user's portfolio.
 - **User-friendly UI:** Built with Streamlit for a clean and intuitive user experience.
 
+  
+## Technologies Used
+- **Streamlit:** For building the web application and user interface.
+- **CrewAI:** For orchestrating the multi-agent system to fetch and analyze news.
+- **NewsAPI:** For fetching real-time financial news data.
+- **Python:** The primary programming language used for the project.
+- **Pydantic:** For data validation and settings management.
+- **Requests:** For making HTTP requests to the NewsAPI.
+- **Dotenv:** For managing environment variables.
+
+  
 ## Setup
 1. **Clone the repository:**
    ```bash
